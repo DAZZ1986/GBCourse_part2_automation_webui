@@ -1,0 +1,64 @@
+1. Сайт - https://example.com/
+Элемент - <a href="https://www.iana.org/domains/example">More information...</a>
+Локатор - /html/body/div/p/a	
+
+2. Сайт - https://34karavan.ru/arenda-spectehniki-v-volgograde/
+Элемент - заголовок "Почему машины лучше брать у нас?".
+Локатор - //h3[.='Почему машины лучше брать у нас?']
+
+3. Сайт - https://34karavan.ru/arenda-spectehniki-v-volgograde/
+Элемент - кнопка "Узнать цены подробнее"
+Локатор - //span[text()='Узнать цены подробнее']
+
+4. Сайт - https://34karavan.ru/arenda-spectehniki-v-volgograde/
+Элемент - пункт "ДОРОЖНЫХ РАБОТ" из списка необходимости спецтехники.
+Локатор - //span[@class='elementor-icon-list-text' and .='ДОРОЖНЫХ РАБОТ']
+
+5. Сайт - https://34karavan.ru/arenda-spectehniki-v-volgograde/
+Элемент - ссылка "ПРОКАТ АВТОВЫШКИ"
+Локатор - //a[@rel='nofollow noopener' and @href='https://34karavan.ru/arenda-avtovyshki-v-volgograde']//span[@style='color: #008000;']
+
+6. Сайт - https://34karavan.ru/arenda-spectehniki-v-volgograde/
+Элемент - поиск картинки "Дзержинский район"
+Локатор - //img[@src='https://34karavan.ru/wp-content/uploads/2020/06/dzerzhinskij-rajon.jpg' and @class='attachment-full size-full webpexpress-processed' and @alt='дзержинский район']
+
+
+                                                                
+Мои наработки:
+/ - поиск среди прямых потомков (тоесть только в след. уровне вложенности внутрь).
+// - поиск среди всех потомков.
+//a[text()='Test']  -  поиск ссылки среди всех потомков по тексту. Сокращенная запись //a[.='Test'], точка вместо метода text().
+//a[@href='https://www.iana.org/domains/example']  -  поиск по атрибуту
+//a[@href='https://www.iana.org/domains/example' and text()='Test']  -  поиск по атрибуту и тексту
+//div[@data-test='FEATURE']//button[@data-test='BUTTON CONTROL-NEXT'] - поиск по атрибуту с подвязкой к атрибуту родителя, тоесть
+ищем button, у которого родитель div с атрибутом FEATURE. Тоесть выбрали все дивы и у них все баттоны и среди них ищем. Тоесть тут 
+мы искали локатор у которого есть определенный предок.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

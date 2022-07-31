@@ -1,0 +1,360 @@
+{
+  "id": "5bade881-e42c-45b1-97a6-502752bd7c75",
+  "version": "2.0",
+  "name": "1 Проверка наличия всех категорий на сайте msiter.ru",
+  "url": "https://msiter.ru",
+  "tests": [{
+    "id": "49038397-265e-4877-848a-a5992a0ec7fc",
+    "name": "1 Проверка наличия всех категорий на сайте msiter.ru",
+    "commands": [{
+      "id": "421a52d1-b7a1-4b3b-965e-1075c47c00ba",
+      "comment": "",
+      "command": "open",
+      "target": "/tutorials/xpath",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2374db19-e7df-4f9c-93ed-ee3deb72349f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1751x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03fb986e-d602-4164-aa74-44d51ebd46bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.depth-2:nth-child(1) > a",
+      "targets": [
+        ["css=.depth-2:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Введение в XPath')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main']/aside/nav/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tutorials/xpath/vvedenie')])[3]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e839e0-16da-46df-9bdf-ff5ec61eea72",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Главная",
+      "targets": [
+        ["linkText=Главная", "linkText"],
+        ["css=.breadcrumb > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Главная')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[27]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Главная')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f008af9-a7ff-4acb-b9b5-a29687d69d0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.depth-2:nth-child(2) > a",
+      "targets": [
+        ["css=.depth-2:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Терминология в XPath')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/aside/nav/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tutorials/xpath/terminologija')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ff7b60-da55-41eb-9c39-a8d1cf4978fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.depth-2:nth-child(3) > a",
+      "targets": [
+        ["css=.depth-2:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Синтаксис XPath')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/aside/nav/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tutorials/xpath/syntax')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94fc5736-67eb-4dbc-b2b4-34415a4eb8ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.depth-2:nth-child(4) > a",
+      "targets": [
+        ["css=.depth-2:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Оси XPath')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/aside/nav/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tutorials/xpath/axes')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed12f23a-8064-4727-b207-28472ace527e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.depth-2:nth-child(5) > a",
+      "targets": [
+        ["css=.depth-2:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Операторы XPath')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/aside/nav/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tutorials/xpath/operators')])[2]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c16b9d2-67c0-4623-9567-05a69c0f8c80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.depth-2:nth-child(6) > a",
+      "targets": [
+        ["css=.depth-2:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Примеры XPath')])[2]", "xpath:link"],
+        ["xpath=//div[@id='main']/aside/nav/div/div[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tutorials/xpath/examples')])[2]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0343779d-d872-4d93-bde3-0c02841ff7c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Справочники",
+      "targets": [
+        ["linkText=Справочники", "linkText"],
+        ["css=.ultimenu__item:nth-child(2) > .ultimenu__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Справочники')]", "xpath:link"],
+        ["xpath=//ul[@id='ultimenu-menu-sitetopics']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/references')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Справочники')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2fdae99-702c-4406-8161-2dabcd4926de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSS свойства",
+      "targets": [
+        ["linkText=CSS свойства", "linkText"],
+        ["css=.clicked .ultimenu__flyout-inner:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSS свойства')]", "xpath:link"],
+        ["xpath=//ul[@id='ultimenu-menu-sitetopics']/li[2]/div/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/references/css-reference')]", "xpath:href"],
+        ["xpath=//li[2]/div/nav/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSS свойства')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7692655f-6afe-4153-ad34-ac92f083e697",
+    "name": "2 Проверка наличия корпоративных тарифов на сайте mts.ru",
+    "commands": [{
+      "id": "a296f16d-73e1-45ee-9175-d645902446d4",
+      "comment": "",
+      "command": "open",
+      "target": "https://volgograd.mts.ru/personal",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4fb0dc6-7f9a-49d2-8af9-b92ef041a3a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1720x889",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8edd5bcc-e52f-4230-a86b-fde405c05b2f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Бизнесу",
+      "targets": [
+        ["linkText=Бизнесу", "linkText"],
+        ["css=.g-only-wide:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Бизнесу')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/business')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Бизнесу')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab211ef-c35e-4d5f-a3e5-9bc1454c332c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b2b-widget:nth-child(2) > .b2b-widget__card:nth-child(1) .b2b-widget__title",
+      "targets": [
+        ["css=.b2b-widget:nth-child(2) > .b2b-widget__card:nth-child(1) .b2b-widget__title", "css:finder"],
+        ["xpath=//section/div/div/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "37dc0c69-8bc2-45b1-ab45-9379a4c2f7fa",
+    "name": "3 Заполнение и отправка заявки на сайте Ростелеком.",
+    "commands": [{
+      "id": "0752830f-2bb7-4125-aef1-1f1d59d07d8e",
+      "comment": "",
+      "command": "open",
+      "target": "https://volgograd.rt.ru/lightplus?utm_source=yandex&utm_medium=cpc&utm_campaign=brand_ug_0&utm_content=v4directcpc%7C%7C11783055867%7C%7C36704137329%7C%7C%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC%7C%7C1%7C%7Cpremium%7C%7Cnone%7C%7Csearch%7C%7Cno&utm_term=%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC&etext=2202.7qxlUQvc30f6NucI-2snlCcNJp09gblQl9P8ml0fsaEOteZNbu3XRWHqFRVGmSVzcFmaDCGNXq1XCRuZeCVrqlW0d6CEnY76VPMR4uKlMDN0eGJodnJnZ2ZkYnRubXJy.71c9a4506a892845f3ca12634a84f11d81d829b0&yclid=4183970638994658432",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc7430c0-32ab-400a-a8e2-64041f1369b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1720x889",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c82905c-0c53-4295-bef6-5476ecbfa7e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rt-lp",
+      "targets": [
+        ["css=.rt-lp", "css:finder"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//article/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82f138a5-d261-4c57-a8cc-352767785d1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-v2__container .rt-input-v2-placeholder",
+      "targets": [
+        ["css=.select-v2__container .rt-input-v2-placeholder", "css:finder"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div/div/span/div/div/div/span/div/div/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0794b70-2ca9-4881-83fb-4b8e9ac8bb52",
+      "comment": "",
+      "command": "type",
+      "target": "name=address",
+      "targets": [
+        ["name=address", "name"],
+        ["css=.rt-input-v2--error .rt-input-v2__input", "css:finder"],
+        ["xpath=//input[@name='address']", "xpath:attributes"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div/div/span/div/div/div/span/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "г Волгоград, ул им В.И.Ленина (Рабочий поселок Гумрак тер.), д 22к"
+    }, {
+      "id": "ca3e9bca-2f34-42c0-a099-e046620626be",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span:nth-child(10)",
+      "targets": [
+        ["css=span:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div/div/span/div/div/div/span/div/div/div[2]/div/button/div/p/span/span[10]", "xpath:idRelative"],
+        ["xpath=//span[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd4211eb-45ca-41a6-a8e2-c89d6b29c801",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=span:nth-child(10)",
+      "targets": [
+        ["css=span:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div/div/span/div/div/div/span/div/div/div[2]/div/button/div/p/span/span[10]", "xpath:idRelative"],
+        ["xpath=//span[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1382d2b-1f26-43fb-b3e7-5378021eea58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rt-lp",
+      "targets": [
+        ["css=.rt-lp", "css:finder"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//article/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7cba5bb-276e-4990-8062-d580383f3f99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rt-col-6:nth-child(1) .rt-input-v2-wrapper",
+      "targets": [
+        ["css=.rt-col-6:nth-child(1) .rt-input-v2-wrapper", "css:finder"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div[2]/div/span/div/label", "xpath:idRelative"],
+        ["xpath=//span/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Как вас зовут?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8ad5ef-d979-4749-b47a-b0199a672b26",
+      "comment": "",
+      "command": "type",
+      "target": "name=fullName",
+      "targets": [
+        ["name=fullName", "name"],
+        ["css=.rt-col-6:nth-child(1) .rt-input-v2__input", "css:finder"],
+        ["xpath=//input[@name='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div[2]/div/span/div/label/input", "xpath:idRelative"],
+        ["xpath=//span/div/label/input", "xpath:position"]
+      ],
+      "value": "Артур"
+    }, {
+      "id": "aa461a59-ed0d-43d3-a9d6-ad5f3cb9f3bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rt-input-v2--empty .rt-input-v2-placeholder",
+      "targets": [
+        ["css=.rt-input-v2--empty .rt-input-v2-placeholder", "css:finder"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div[2]/div[2]/span/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01203902-6a9a-49d9-bb2f-2970fc7691b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.rt-input-v2--error .rt-input-v2__input", "css:finder"],
+        ["xpath=//input[@name='phoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div[2]/div[2]/span/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/div/label/input", "xpath:position"]
+      ],
+      "value": "+7 (919) 548 44 12"
+    }, {
+      "id": "2c6da941-ecf8-4b49-a3c2-e5f42ff03194",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cl__submit",
+      "targets": [
+        ["css=.cl__submit", "css:finder"],
+        ["xpath=//button[@value='Подключить']", "xpath:attributes"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подключить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8273222-e302-44c0-8dd9-5e87ecc71e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cl__submit",
+      "targets": [
+        ["css=.cl__submit", "css:finder"],
+        ["xpath=//button[@value='Подключить']", "xpath:attributes"],
+        ["xpath=//div[@id='block-rt-ru-lightplus-content']/div/div/div/div/article/div/div/div/div/div/div/div/div[2]/div/div[2]/span/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подключить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e0167770-1ceb-4839-93c7-e78c824f94b1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["49038397-265e-4877-848a-a5992a0ec7fc"]
+  }],
+  "urls": ["https://msiter.ru/"],
+  "plugins": []
+}

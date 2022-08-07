@@ -31,7 +31,7 @@ public class MmprodTest {
         Thread.sleep(2000);
         WebElement cabinetBtn = chromeDriver.findElement(By.xpath("//ul[@class='login-nav']//a[@href='/user/cabinet/view']"));
         cabinetBtn.click();
-        
+
 
 
         Thread.sleep(6000);

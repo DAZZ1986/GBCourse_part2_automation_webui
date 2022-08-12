@@ -19,7 +19,6 @@ public class MmprodTest {
     WebDriver driver;
     WebDriverWait webDriverWait;
     Actions actions;
-
     private final static String MMPROD_BASE_URL = "https://mmprod.ru/";
 
     @BeforeAll

@@ -1,4 +1,4 @@
 package com.geekbrains;
 
-public class ррр {
+public class App1 {
 }

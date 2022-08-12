@@ -34,9 +34,7 @@ public class MmprodTest {
 
 
 
-
-
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         chromeDriver.quit();
 
     }

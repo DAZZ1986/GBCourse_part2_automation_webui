@@ -34,7 +34,7 @@ public class POTestFindRecipeWithSausages {
 
     @Test   //поиск рецепта с ингредиентом "Сосиска"
     void findRecipeWithSausages() throws InterruptedException {
-        //можно создать объект через new, без переменной - вариант 1
+        //можно создать объект через new, без переменной - вариант 1.
         //new MainPageMmprod(driver).signInButton.click();   //вызов локатора через переменную уже не вызовем тк сделали его private
         //new MainPageMmprod(driver).clickSignInButton();    //вызов локатора через метод
 
